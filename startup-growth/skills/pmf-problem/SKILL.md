@@ -25,7 +25,7 @@ Each heading says how the technique works (chat · research · build · analyse 
 
 # Part 1 · From sources
 
-## A. Sourced research · research · 10 min
+## A. Research with sources you can check · research · 10 min
 
 Deep research you can check line by line. Use the research tool available (Claude Research, web search) and follow this brief exactly:
 
@@ -40,14 +40,14 @@ If you could not open a source page yourself (only a search snippet), mark its r
 
 Seen at: Torsten Walbaum, Growth Unhinged (Aug 2025): plan first, source priorities, source table.
 
-## B. Two researchers · research
+## B. Two research tools, side by side · research
 
 1. Run the brief from A in two tools (e.g. Claude Research and ChatGPT deep research).
 2. Paste both reports in and run:
 > List every claim only one report makes, and every number the two reports disagree on, with both sources. Then list what both reports failed to find.
 3. Disagreements and joint gaps go to technique K.
 
-## C. The last 30 days · research · skill
+## C. What people said this month · research · skill
 
 What people said about the problem this month, ranked by engagement.
 - If the `last30days` skill is installed (mvanhorn/last30days-skill): run `/last30days [problem in plain words]`.
@@ -63,7 +63,7 @@ site:reddit.com "how do you guys" [task]
 
 Note for the founder: Reddit is restricting API access from November 2026 (RSS ends 13 Nov 2026, broader public API access in 2027), so Reddit-based tools and monitors may stop working.
 
-## D. Every bad review · research · connector
+## D. Competitors’ bad reviews, via Apify · research · connector
 
 The 1–2 star reviews of what the customer uses today, in bulk.
 
@@ -78,7 +78,7 @@ The 1–2 star reviews of what the customer uses today, in bulk.
 
 **Check:** Ctrl-F three quotes in the source. If one isn't there, redo it.
 
-## E. Your own scraper · build (Claude Code)
+## E. Have the AI write your scraper · build (Claude Code)
 
 When there's too much to read by hand: have Claude Code write a script that collects every post, comment or review about the problem from a source the founder is allowed to collect from. Respect terms of service and rate limits; avoid personal data. The result is thousands of rows to work with, ready for F.
 
@@ -91,13 +91,13 @@ Seen at: Amir Klein (monday.com), How I AI, Oct 2025: a 34,000-row Reddit datase
 
 Brute-forcing everything through the strongest model is what makes this expensive. Seen at: Claire Vo, How I AI, Sept 2026: ~200,000 classifications for about $4 with a cheap classifier, then a frontier model for reasoning.
 
-## G. The six-dimension check · research · skill
+## G. Rate your idea on six dimensions · research · skill
 
 A check that admits what it couldn't find. Rate: problem frequency · problem severity · current spend · competition · willingness to switch · reachability of the ICP. Each HIGH / MED / LOW or **INSUFFICIENT DATA**, with citations. INSUFFICIENT DATA is the useful answer: that's where the founder goes and talks to people.
 
 Seen at: Eddie Larsen's `/validate` skill (Medium, May 2026).
 
-## H. Watch them do it · research
+## H. Watch their workarounds on YouTube · research
 
 People film their workaround and explain it out loud.
 1. Search YouTube: "how I [task] in Excel / Notion / Google Sheets". Pick the 5 most-viewed.
@@ -119,7 +119,7 @@ If you can write files, save it as `pmf/problem-cost.csv` with working formulas.
 
 Add the seven to `pmf/interview-questions.md`. This output is a list of things to find out. It is no evidence.
 
-## K. From research to questions · chat
+## K. Turn research into interview questions · chat
 
 The research's job is to make the next interview sharper.
 1. Every UNKNOWN, every single-source claim, every opinion, every disagreement from B, every GUESS from I → one question.
@@ -149,7 +149,7 @@ Seen at: Michele Hansen, Deploy Empathy (Feb 2025), on Chaz Yoon (Milled.com): a
 
 Nothing the persona says is evidence. It trains the interviewer.
 
-## N. Synthetic vs real · simulate
+## N. AI personas vs real people · simulate
 
 1. Build 5 AI personas of the ICP from `product-info.md`. Interview each with the script. Write their consensus to `pmf/synthetic.md`.
 2. The founder does at least 10 real interviews, recorded with permission, ideally half in person.
@@ -160,7 +160,7 @@ Why: NN/g (2024) found synthetic users claimed to have completed every course; a
 
 Seen at: Steve Blank, Lean LaunchPad redesign (Sept 2026).
 
-## O. Interview invites · chat · connector
+## O. Interview invites in your Gmail drafts · chat · connector
 
 For each person on the list (`pmf/lists/`, from `pmf-customer`):
 > Here is a person: [name, role, company, recent post or news]. Write a 3-sentence message asking for 20 minutes to learn how they handle [task] today. Reference their post or news in the first sentence. Don't mention a product, a startup or AI. No flattery. End with a specific day and time.
@@ -193,7 +193,7 @@ Run on every synthesis before anyone uses it:
 
 Report the count of NOT FOUNDs to the founder. Teresa Torres found about 30% of ChatGPT's quotes from her interviews were inaccurate or absent (Product Talk, Oct 2025); Caitlin Sullivan's verification pass is the fix (Lenny's Newsletter, Feb 2026).
 
-## S. Ask for something · chat
+## S. Ask for a commitment · chat
 
 Interest says yes. Commitment signs. End every good call with an ask in one of these currencies: time (a weekly call), data (access to their files), reputation (an introduction), money (a deposit, a letter of intent, a paid pilot).
 > Draft a one-page pilot agreement between [startup] and [customer company]: 6 weeks · what we deliver · what they commit (data access, a weekly 30-minute call, a named contact) · price [€X] or free in exchange for a case study · what happens after, if it works. Plain language, one page.

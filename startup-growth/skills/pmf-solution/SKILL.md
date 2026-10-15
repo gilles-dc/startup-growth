@@ -23,7 +23,7 @@ Each heading says how the technique works (chat · research · build · analyse 
 
 ---
 
-## A. What buyers ask · research
+## A. Questions buyers ask before buying · research
 
 1. Load call transcripts (or competitor reviews if there are no calls yet).
 > What were buyers trying to find out when they evaluated options? Group the questions, count them, quote each.
@@ -32,7 +32,7 @@ Each heading says how the technique works (chat · research · build · analyse 
 
 Seen at: Docebo, via Kyle Poyar, Growth Unhinged (Oct 2025).
 
-## B. Competitors in parallel · research · skill
+## B. Analyse every competitor at once · research · skill
 
 1. Do one competitor analysis by hand with the founder, reading `product-info.md` first: positioning, ICP, pricing, features, reviews, recent changes.
 2. Turn the method into a reusable instruction and save the list in `pmf/competitors.md`.
@@ -41,13 +41,13 @@ Seen at: Docebo, via Kyle Poyar, Growth Unhinged (Oct 2025).
 
 Seen at: Teresa Torres, Product Talk (Oct 2025): 1–2 minutes per competitor, 15 in parallel. The same work in browser chat took about an hour and came back shallow.
 
-## C. Live pricing · research · connector
+## C. Competitors’ live prices, via a browser · research · connector
 
 Research tools often return cached or outdated pricing pages. If a browser or scraping tool is available (Claude in Chrome, Firecrawl, Bright Data), open each competitor's live pricing page and extract: plans · prices · billing · limits · who each plan is for · free tier. Tell the founder to spot-check two by hand.
 
 Seen at: Sachin Rekhi (2025): deep research returned stale prices; only live browsing was right.
 
-## D. Pricing history · research · connector
+## D. Competitors’ old prices, via Wayback · research · connector
 
 A competitor's pricing history is their customer research, published.
 - With a Wayback Machine connector: compare the competitor's /pricing page three years ago, one year ago, today.
@@ -56,13 +56,13 @@ A competitor's pricing history is their customer research, published.
 
 Prices that went up and stayed up were accepted. Plans that vanished didn't sell. Offer to schedule a monthly page check (Firecrawl monitor, changedetection.io, or a scheduled task).
 
-## E. Pricing teardown · analyse · skill
+## E. Score a pricing page on ten points · analyse · skill
 
 Score each competitor's pricing page, and the founder's draft pricing, on: clarity · value metric · packaging · anchoring · free-to-paid path · enterprise path · how readable it is to AI agents. Kyle Poyar publishes a free pricing-teardown skill that does this (Growth Unhinged, Apr 2026); if it's installed, use it.
 
 Seen at: Kyle Poyar, Growth Unhinged (Apr 2026): all 50 Forbes AI 50 pricing pages in minutes.
 
-## F. Size from search demand · analyse · connector
+## F. Market size from search volume · analyse · connector
 
 Market size = customers × what they spend on this problem, with real search volume and named companies as inputs and every assumption labelled.
 
@@ -100,7 +100,7 @@ Then synthesise:
 
 **Check:** if the product wins every row, the rows came from the feature list. Rebuild them from the problem column.
 
-## I. Ten promises · chat · 5 min
+## I. Ten headlines · chat · 5 min
 
 > Write 10 landing-page headlines for [product] for [ICP], using the language in these quotes: [paste]. Each must promise a different outcome: save time, save money, reduce risk, look good to their boss, avoid a specific mistake, and so on. Maximum 8 words each. Under each: one subheading with a number in it.
 

@@ -21,7 +21,7 @@ Each heading says how the technique works (chat · research · build · analyse 
 
 ---
 
-## A. Pick the instrument · chat
+## A. Pick the right test · chat
 
 | The riskiest assumption is… | Instrument |
 |---|---|
@@ -33,7 +33,7 @@ Each heading says how the technique works (chat · research · build · analyse 
 
 A working product is usually a worse instrument than a page: it tests "do they like it" when the question is "do they have the problem", and it turns interviews into demos.
 
-## B. Kill criteria first · chat
+## B. Write your kill criteria first · chat
 
 Before anything goes live, write `pmf/tests/[test-name].md`:
 - hypothesis · instrument · audience · budget · duration
@@ -42,7 +42,7 @@ Before anything goes live, write `pmf/tests/[test-name].md`:
 
 Example thresholds one founder used for fake doors (Moe Shegow, Indie Hackers, May 2026): CTA click rate above 4%, 20+ sign-ups, 40% choosing a paid tier. These are his choices; the founder sets their own. His gap was traffic: no ads, so no answer yet. `pmf-test` puts traffic on the test and applies these rules.
 
-## C. Fake door in 15 minutes · build · connector
+## C. A test page with deposits in 15 minutes · build · connector
 
 **Page:** if the `landing-page` skill is installed, use it in BUILD mode with `product-info.md` as the brief, then its AUDIT mode before going live. Otherwise (Claude Code or any builder):
 > Build a one-page site for [product]. Headline: [best of the 10 from pmf-solution]. Section 2: three problems in the customer's words: [left column]. Section 3: what changes, with numbers: [right column]. Pricing: [price]. One button only: "[Reserve your spot: €X, fully refundable]" linking to [payment link] (or "Join the waitlist" linking to [form]). No feature list. No stock photos. No "AI-powered".
@@ -55,14 +55,14 @@ Use what's connected, and **ask before each write action**:
 
 No connectors: generate the page as a single HTML file and tell the founder how to put it live (Lovable, v0, Framer, Netlify drop).
 
-## D. Show three versions · build
+## D. Test three prototypes side by side · build
 
 Showing one prototype inflates the feedback; showing three makes people critical. In a CHI 2006 study (Tohidi, Buxton, Baecker & Sellen), a design shown alone scored 9.08; shown with two alternatives, 8.13.
 1. Build three different versions of the same key screen (Lovable, v0, Magic Patterns, Figma Make, or HTML).
 2. The founder shows them only after the interviewee has told the story of the last time the problem happened.
 3. Ask: "which one would you have used last time, and why are the others worse?" Never "do you like it?"
 
-## E. Call to prototype · build
+## E. From a call to a prototype in an hour · build
 
 From a call transcript to a clickable prototype within the hour.
 1. Take an interview transcript.
@@ -72,7 +72,7 @@ From a call transcript to a clickable prototype within the hour.
 
 Seen at: Anjan Panneer Selvam, CPTO Acolyte Health, How I AI (Sept 2025).
 
-## F. AI behind the curtain · build
+## F. Deliver it by hand first · build
 
 Deliver the outcome by hand to 3–5 customers, using AI behind the scenes, and charge for it. Log every step taken; the steps that repeat are the product spec.
 

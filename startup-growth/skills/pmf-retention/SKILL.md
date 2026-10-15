@@ -41,7 +41,7 @@ Every open-ended answer at once: survey comments, NPS, support tickets, app revi
 
 Use a deep research run or code for large files, not a quick chat; a shallow pass returns keyword counts. Check the counts against the file and verify five quotes. (Seen at: Zach Leach, Gamma, How I AI, Jun 2025: 550 responses in 12+ languages, about 19 minutes.)
 
-## B. The 40% survey · analyse · connector
+## B. The 40% PMF survey · analyse · connector
 
 Survey only people who used the product at least twice in the last two weeks.
 1. How would you feel if you could no longer use [product]? — very disappointed · somewhat disappointed · not disappointed
@@ -60,7 +60,7 @@ Superhuman went from 22% to 58% very disappointed by building for the first grou
 
 **Check:** if the "very disappointed" respondents are all different kinds of people, there is no ICP yet.
 
-## C. Retention by asking · analyse · connector
+## C. Ask your analytics about retention · analyse · connector
 
 With an analytics connector (PostHog, Mixpanel, Amplitude, GA4):
 > Weekly retention by sign-up cohort, where active means [the event that means they got value, e.g. "created a report"]. Logging in doesn't count. Does any cohort's curve flatten, and after which week? Are newer cohorts retaining better than older ones?
@@ -69,14 +69,14 @@ Without one: ask for a CSV of sign-ups and events, compute the cohort table and 
 
 A curve that flattens above zero is the signal. A curve that keeps falling to zero is a leaky bucket, whatever the sign-up numbers say: Clubhouse had 9.6M downloads in February 2021 and 922k in April.
 
-## D. Customer archetypes · analyse · connector
+## D. Customer types from their emails · analyse · connector
 
 With access to the support inbox and community forum (email connector, exported files):
 > Read everything. Group customers into archetypes; mark promoters and detractors; for each archetype, what were they trying to do when they wrote?
 
 The archetype that loves the product is the ICP to sell to. (Seen at: Dan Shipper, Every, Jul 2025: 1,500 support emails and 500 forum posts for Cora.) Customer emails are personal data: keep the analysis inside tools the founder controls.
 
-## E. Churn agent · analyse · schedule
+## E. Ask everyone who cancels why · analyse · schedule
 
 On every cancellation (Stripe) or 30 days of inactivity, one question:
 "What were you hoping it would do that it didn't?"

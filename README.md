@@ -15,7 +15,7 @@ CUSTOMER → PROBLEM → SOLUTION  →  MVP → TEST → ITERATE → PMF → gro
 | `pmf-customer` | define and test your first customer, find where they are, build a list of real people, count the market |
 | `pmf-problem` | first from sources: research with checkable sources, reviews, forums, your own scraper, watching people work; then from conversations: script, rehearsal, invites, synthetic vs real, AI interviewer, synthesis with every quote verified |
 | `pmf-solution` | what buyers ask, competitors in parallel, live pricing and pricing history, market size, the promise in your customer's words |
-| `pmf-mvp` | build the smallest thing that gets a market answer: kill criteria first, fake door with deposit or LOI, three versions, call to prototype, AI behind the curtain |
+| `pmf-mvp` | build the smallest thing that gets a market answer: write your kill criteria first, a test page with deposits (or an LOI) in 15 minutes, three prototypes side by side, from a call to a prototype in an hour, deliver it by hand first |
 | `pmf-test` | put the test in front of the market: check the tracking, launch the traffic, read back against your kill criteria and decide |
 | `pmf-iterate` | update your assumptions with evidence, pivot memo, and agents that keep the loop running |
 | `pmf-retention` | the 40% survey, cohort retention, all feedback at once, churn reasons, and which level of fit you're at |
@@ -66,7 +66,7 @@ The skills work with research and chat alone. Each connected tool unlocks more; 
 | Hosting | Vercel, Netlify | deploying test pages |
 | Scheduling / chat | Calendly, Slack | booking links, agent digests |
 
-Recurring agents (discovery agent, Monday bets, competitor watch, churn reasons) run as Claude Cowork scheduled tasks or Claude Code routines. `pmf-iterate` and `pmf-retention` contain the instructions.
+Recurring agents (every new interview analysed, three ideas to test every Monday, competitor watch, ask everyone who cancels why) run as Claude Cowork scheduled tasks or Claude Code routines. `pmf-iterate` and `pmf-retention` contain the instructions.
 
 ## License
 

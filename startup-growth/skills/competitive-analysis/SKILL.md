@@ -74,7 +74,7 @@ Also note the **norms**: what every company in the space does on its ads and lan
 
 ## Output and hand-off
 
-`pmf/competitors.md` (who and why), one file per company in `pmf/competitors/`, and a prioritised test list in `pmf/tests/backlog.md`. Next: `pmf-mvp` and `pmf-test` for the top test, or `pmf-solution` D (Pricing history) and C (Live pricing) for the pricing side.
+`pmf/competitors.md` (who and why), one file per company in `pmf/competitors/`, and a prioritised test list in `pmf/tests/backlog.md`. Next: `pmf-mvp` and `pmf-test` for the top test, or `pmf-solution` D (Competitors’ old prices, via Wayback) and C (Competitors’ live prices, via a browser) for the pricing side.
 
 ## Rules (from pmf-loop)
 

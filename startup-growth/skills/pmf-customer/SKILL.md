@@ -24,7 +24,7 @@ Each heading says how the technique works (chat · research · build · analyse 
 
 ---
 
-## A. Five ICPs that disagree · chat · 10 min
+## A. Five first customers, picked by reply rate · chat · 10 min
 
 Let reply rates pick the first customer instead of the founder's gut.
 
@@ -40,7 +40,7 @@ Then:
 
 **Check:** the decision is made on reply rate per ICP, not on which one sounds best.
 
-## B. Where your customer lives · research · skill
+## B. Where your customers hang out online · research · skill
 
 Find where the ICP talks shop, with links that work.
 
@@ -67,7 +67,7 @@ Write the result as five dimensions in `pmf/product-info.md` (Customer section):
 
 **Check:** if the ICP description fits five different kinds of people, it isn't specific enough. Could a stranger find this person from the description alone?
 
-## D. The list of 50 · research · connector
+## D. 50 named prospects from Apollo · research · connector
 
 Named people who match the ICP, with a reason to talk now.
 
@@ -85,7 +85,7 @@ If a CRM connector is available (Attio, HubSpot), offer to add them, tagged with
 
 **Never** automate LinkedIn messaging or scraping (it violates LinkedIn's terms and risks the account). Never enrol people in email sequences. Outreach is drafted; the founder sends. EU contacts: GDPR applies to cold outreach.
 
-## E. Count your market · analyse · connector
+## E. Count the companies that fit, in Apollo · analyse · connector
 
 A market size built from companies you can name.
 
@@ -100,7 +100,7 @@ Write it to the Market size section of `product-info.md`, every input with its s
 
 Seen at: Dan Rosenthal (Workflows.io), Growth Unhinged, May 2026: bottom-up account mapping with AI qualification from company websites.
 
-## F. Weekly lookalikes · research · schedule
+## F. Ten new matching prospects every Monday · research · schedule
 
 Once some people have taken a call, signed up or paid: every week, find ten more like them.
 

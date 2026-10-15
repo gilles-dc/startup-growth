@@ -20,7 +20,7 @@ Each heading says how the technique works (chat · research · build · analyse 
 
 ---
 
-## A. Is the tracking working? · analyse · connector
+## A. Check your tracking end to end · analyse · connector
 
 One question across every tool, before you spend a euro.
 
@@ -29,7 +29,7 @@ Check the chain end to end: ad click (UTM) → page view → CTA click → form 
 
 Fix the gaps before launch. A test with broken tracking is a test you have to run twice.
 
-## B. Launch the traffic · build · connector
+## B. Build the ads in Meta, paused · build · connector
 
 The agent creates the campaign, paused; the founder presses go.
 - **Meta Ads connector:** one campaign, one ad set per headline, small equal budgets, same audience, pointing at the page. Campaigns are created **paused**. The founder reviews in Ads Manager and switches it on. Warn them that edits to live ads apply immediately, and suggest turning on only the ad tools needed.
@@ -39,7 +39,7 @@ The agent creates the campaign, paused; the founder presses go.
 
 Ad copy volume: generate headlines and descriptions to the platform's limits and have the founder review every line before upload. (Seen at: Austin Lau, Anthropic growth marketing, Jan 2026: about 30 minutes → 30 seconds per ad, all human-reviewed.)
 
-## C. Read back, decide · analyse · connector
+## C. Read the results, decide · analyse · connector
 
 The next morning, and again after the agreed duration:
 > One row per headline or variant: spend · impressions · clicks · CTR · page views · CTA clicks · sign-ups · deposits or LOIs · cost per sign-up · cost per deposit.

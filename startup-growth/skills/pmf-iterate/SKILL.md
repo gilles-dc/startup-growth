@@ -1,6 +1,6 @@
 ---
 name: pmf-iterate
-description: Turn evidence into decisions with AI — update the assumption board from interviews and tests, write a pivot-or-persevere memo, generate one-change pivot options, check whether the team really knows its customer, and set up recurring agents (discovery agent, Monday bets, competitor watch). Use after interviews or tests, when deciding what to change, or when setting up automation for the validation loop. Part of the pmf-* set.
+description: Turn evidence into decisions with AI — update the assumption board from interviews and tests, write a pivot-or-persevere memo, generate one-change pivot options, check whether the team really knows its customer, and set up recurring agents (every new interview analysed, three ideas to test every Monday, competitor watch). Use after interviews or tests, when deciding what to change, or when setting up automation for the validation loop. Part of the pmf-* set.
 ---
 
 # PMF · Iterate — what changes?
@@ -27,13 +27,13 @@ Each heading says how the technique works (chat · research · build · analyse 
 
 Show the proposed changes as a diff. **The founder approves each one.** Never update the board on your own. Flag any assumption unchanged for two weeks: it isn't being tested.
 
-## B. Quiz me · chat · 5 min
+## B. Quiz yourself on your customer · chat · 5 min
 
 > You have my customer interviews: [transcripts / synthesis]. Quiz me: 10 questions about my customer: their day, their tools, what they pay for, the words they use, what they said word for word. Don't give hints. At the end, score me and show what I got wrong, with the quote.
 
 Run it with every founder on the team. Under 7/10: reread the transcripts before the next call. If the AI knows the customer better than the team does, the team has learning debt (Steve Blank's term): any founder should be able to explain the customer, their workflow, the evidence, the economics and the contradictions without opening a laptop.
 
-## C. Pivot memo · chat · skill
+## C. Pivot-or-persevere memo · chat · skill
 
 If a pivot-decision skill is installed (product-on-purpose/pm-skills `iterate-pivot-decision`, MaxKmet/idea-validation-agents `pivot-engine`), use it to write the memo. Otherwise write `pmf/decisions/[date].md`:
 - what we believed · what we found (verified quotes, test numbers) · what that means
@@ -47,7 +47,7 @@ A pivot that isn't tied to a quote is a new idea. Real pivots are often bigger t
 
 **Rule:** one change per cycle, on purpose. Book next week's conversations before building this week's version.
 
-## D. Discovery agent · analyse · schedule
+## D. Every new interview, analysed · analyse · schedule
 
 For D, E and F: only automate a method that already works by hand; automating a bad process makes it fail faster. Set up with Claude Cowork scheduled tasks or Claude Code routines (the founder approves the schedule and the connectors). Agents write drafts and digests; they never send, launch or spend.
 
@@ -56,7 +56,7 @@ Every new transcript updates the evidence, without the founder opening anything.
 > When a new transcript appears in [Granola / folder]: analyse it with the per-interview template from pmf-problem Q, verify every quote, append to pmf/interviews/, and propose assumption-board changes with quotes. Post a 5-line summary to [Slack / doc].
 (Seen at: Caitlin Sullivan on Aakash Gupta's podcast: 1 survey + 5 transcripts in under 2 minutes.)
 
-## E. Monday bets · analyse · schedule
+## E. Monday: three ideas to test · analyse · schedule
 
 Every Monday, the agent reads the week's data and proposes what to try next.
 

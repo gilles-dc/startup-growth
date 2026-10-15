@@ -15,7 +15,7 @@ Any chat. Web access helps for WHERE (real names and working links).
 
 ## Before you start
 
-Read `pmf/product-info.md` if it exists. Ask whether the product is B2B or B2C (some are both: then pick the one who pays first). If the founder is torn between several possible customers, run `pmf-customer` A (Five ICPs that disagree) first and let reply rates pick which one to describe here.
+Read `pmf/product-info.md` if it exists. Ask whether the product is B2B or B2C (some are both: then pick the one who pays first). If the founder is torn between several possible customers, run `pmf-customer` A (Five first customers, picked by reply rate) first and let reply rates pick which one to describe here.
 
 ## The five dimensions
 
@@ -77,7 +77,7 @@ Write it to the Customer section of `pmf/product-info.md` (WHO · WHAT · WHY ·
 3. **The trigger is an event**, with a date or a moment, not a general feeling.
 4. **B2B: the buyer and the champion are named** as roles, and they may be different people.
 5. **WHERE has names**, not categories ("Money20/20 Amsterdam", not "fintech events").
-6. **Count the HYPOTHESIS lines.** That's the interview agenda: hand them to `pmf-problem` K (From research to questions).
+6. **Count the HYPOTHESIS lines.** That's the interview agenda: hand them to `pmf-problem` K (Turn research into interview questions).
 
 ## Rules (from pmf-loop)
 
