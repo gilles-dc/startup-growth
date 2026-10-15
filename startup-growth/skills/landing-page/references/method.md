@@ -275,4 +275,4 @@ Questions:
 - What triggered your "bulls*t" reflex?
 
 ---
-Source: Gilles De Clerck, landing page workshop (gillesdc.com). Builds on Demand Curve's Growth Guide, chapter 3, Landing Pages (demandcurve.com/growth/landing-pages).
+Source: Gilles De Clerck, landing page workshop (gillesdc.com).

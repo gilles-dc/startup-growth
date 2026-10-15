@@ -1,43 +1,53 @@
-# Fast-Track PMF — skills for Claude
+# Startup Growth — skills by Gilles De Clerck
 
-Nine skills that take a startup from idea to product-market fit with AI. They follow one path:
+My library of skills for early-stage startup growth, built for Claude and usable in any AI that reads a SKILL.md. Eleven skills: eight that take a startup from idea to product-market fit along one path, and three standalone methods.
 
 ```
-PRE-MARKET                     MARKET
-CUSTOMER → PROBLEM → SOLUTION → MVP → TEST → ITERATE → PMF → grow
+PRE-MARKET (qualitative)          MARKET (counted)
+CUSTOMER → PROBLEM → SOLUTION  →  MVP → TEST → ITERATE → PMF → grow
 ```
+
+**The path to product-market fit**
 
 | Skill | Use it to |
 |---|---|
 | `pmf-loop` | start here: write your `product-info.md`, find your riskiest assumption, get sent to the right stage |
 | `pmf-customer` | define and test your first customer, find where they are, build a list of real people, count the market |
 | `pmf-problem` | first from sources: research with checkable sources, reviews, forums, your own scraper, watching people work; then from conversations: script, rehearsal, invites, synthetic vs real, AI interviewer, synthesis with every quote verified |
-| `pmf-solution` | write the promise in your customer's words, compare honestly with alternatives, read competitor pricing, size the market bottom-up |
+| `pmf-solution` | what buyers ask, competitors in parallel, live pricing and pricing history, market size, the promise in your customer's words |
 | `pmf-mvp` | build the smallest thing that gets a market answer: kill criteria first, fake door with deposit or LOI, three versions, call to prototype, AI behind the curtain |
 | `pmf-test` | put the test in front of the market: check the tracking, launch the traffic, read back against your kill criteria and decide |
-| `pmf-iterate` | update your assumptions with evidence, pivot or persevere, and set up agents that keep the loop running |
+| `pmf-iterate` | update your assumptions with evidence, pivot memo, and agents that keep the loop running |
 | `pmf-retention` | the 40% survey, cohort retention, all feedback at once, churn reasons, and which level of fit you're at |
-| `landing-page` | build, audit or get feedback on a landing page with a proven conversion method (Gilles De Clerck's landing page workshop) |
 
-Every technique is labelled with how it works (chat · research · build · analyse · simulate) and, where it needs one, the building block underneath: teach (a skill), connect (a connector) or schedule (runs on its own). The names match the workshop slides.
+**Standalone methods**
 
-Every skill reads and updates two files in a `pmf/` folder: `product-info.md` (your current hypothesis) and `assumptions.md` (what you believe, what proves it). Every skill applies the same rules: numbers need a source or say GUESS, quotes are verified or say PARAPHRASE, and nothing is sent, published, launched, charged or spent without your approval.
+| Skill | Use it to |
+|---|---|
+| `icp` | define your ideal customer in five dimensions (who, what, why, how, where), specific enough that a stranger could find them |
+| `competitive-analysis` | learn how comparable companies grow: their A/B tests, ads, content and onboarding, turned into tests worth running |
+| `landing-page` | build, audit or get feedback on a landing page with a proven conversion method |
+
+Every technique is labelled with how it works (chat · research · build · analyse · simulate) and, where it needs one, the building block underneath: teach (a skill), connect (a connector) or schedule (runs on its own). Each skill starts with **What you need**: what works in a plain chat, which free tools help, which paid tools are optional.
+
+The pmf skills read and update two files in a `pmf/` folder: `product-info.md` (your current hypothesis) and `assumptions.md` (what you believe, what proves it). Every skill applies the same rules: numbers need a source or say GUESS, quotes are verified or say PARAPHRASE, and nothing is sent, published, launched, charged or spent without your approval.
 
 ## Install
 
 **Claude Code**
 ```
-/plugin marketplace add gilles-dc/pmf-fast-track
-/plugin install pmf-fast-track@gilles-dc
+/plugin marketplace add gilles-dc/startup-growth
+/plugin install startup-growth@gilles-dc
 ```
 Then type `/pmf-loop` or just say "help me validate my startup idea".
 
 **Claude.ai (web / desktop)**
 Download the zips from `dist/`, then upload each one under Settings → Capabilities → Skills. Start with `pmf-loop.zip`. Skills are per user: everyone on the team uploads their own. Use them inside a Claude Project and keep `product-info.md` and `assumptions.md` as project files, so every chat starts from your latest hypothesis.
 
-**Other agents (Codex, Cursor and others)**
+**ChatGPT and others**
+A skill is a markdown file. Paste the contents of a `SKILL.md` into the chat or into a Project's instructions. For Codex, Cursor and other agents:
 ```
-npx skills add gilles-dc/pmf-fast-track
+npx skills add gilles-dc/startup-growth
 ```
 
 ## Connect your tools (optional)
@@ -64,6 +74,6 @@ MIT. See `LICENSE`.
 
 ## Credits
 
-Built for the workshop *Fast-Tracking Product-Market Fit with AI* by Gilles De Clerck — [gillesdc.com](https://gillesdc.com).
+By Gilles De Clerck — [gillesdc.com](https://gillesdc.com). First presented at the workshop *Fast-Tracking Product-Market Fit with AI*.
 
 Methods and examples credited inside each skill, including: Steve Blank (Lean LaunchPad, 2026), Todd Jackson / First Round Capital (PMF Method), Rahul Vohra / Superhuman, Sean Ellis, Rob Fitzpatrick (The Mom Test), Teresa Torres, Caitlin Sullivan, Kyle Poyar, Sachin Rekhi, Claire Vo (How I AI), Emily Kramer (MKT1), Nielsen Norman Group, Tohidi et al. (CHI 2006).

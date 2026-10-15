@@ -7,6 +7,11 @@ description: Put a startup's MVP test in front of the market and count the answe
 
 Goal: traffic, sign-ups and deposits, counted. A live test, the tracking proven before a euro is spent, and a decision made against the rules written before launch.
 
+## What you need
+
+- **Free:** PostHog or GA4, Microsoft Clarity, Stripe (A, C).
+- **Needed for paid traffic (B):** a Meta ad account and Facebook Page. Creating a paused campaign costs nothing; turning it on costs whatever budget you set. Without ads, B sends the page to your own list.
+
 ## Before you start
 
 Read `pmf/product-info.md`, `pmf/assumptions.md` and the test file in `pmf/tests/`. The test needs a live instrument and kill criteria (`pmf-mvp` B and C). If there are no kill criteria, write them first: a test without them gets read in whatever way the founder hopes.

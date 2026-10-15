@@ -7,6 +7,12 @@ description: Design and build the smallest test that gets a startup a real marke
 
 Goal: the cheapest thing that could disprove the riskiest assumption, built and ready to measure, with the decision rules written before any result comes in. A page, a deposit link and tracking, built in an afternoon.
 
+## What you need
+
+- **Chat only:** A, B; C as a single HTML file.
+- **Free:** Vercel or Netlify, Tally, Stripe in test mode, PostHog, Lovable / v0 / Magic Patterns free tiers (C, D, E).
+- **Paid, optional:** a domain name.
+
 ## Before you start
 
 Read `pmf/product-info.md` and `pmf/assumptions.md`. Name the riskiest assumption out loud and confirm it with the founder. If there is no assumption board, run `pmf-loop` first.

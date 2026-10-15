@@ -7,6 +7,12 @@ description: Shape what a startup promises, against which alternatives, and whet
 
 Goal: a value proposition built from the customer's words, an honest comparison with what they use today, and a market size with names behind it.
 
+## What you need
+
+- **Chat only:** G, H, I.
+- **Free:** a browser tool such as Claude in Chrome, or Firecrawl's free tier (C), the Wayback Machine connector (D), Claude Code subagents (B), Kyle Poyar's free pricing-teardown skill (E).
+- **Paid, optional:** search data from DataForSEO (pay as you go), Ahrefs or Semrush (A, F).
+
 ## Before you start
 
 Read `pmf/product-info.md` and `pmf/assumptions.md`. This stage works best with customer quotes already collected (`pmf-problem`). If there are none, say so: G, H and I will then be hypotheses in the founder's words.

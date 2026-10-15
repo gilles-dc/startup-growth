@@ -7,6 +7,12 @@ description: Validate whether a startup's problem is real, frequent and costly, 
 
 Goal: the customer's world without the product, in their words, with numbers. First from sources, then from conversations with the people who have the problem. This is the qualitative stage: research makes the hypotheses checkable, and interviews put them in front of real people.
 
+## What you need
+
+- **Chat only:** I, J, K, L, M, N, R, S, T.
+- **Free:** your AI's research mode (A, B, G), the last30days skill (C; Reddit, HN and GitHub need no key), YouTube transcripts (H), Claude Code (E, F), free tiers of Granola, Fireflies or Otter (Q), Tally (T), Gmail drafts and Calendly (O).
+- **Paid, optional:** Apify scraper runs (D, pay per run), AI interviewer tools (P, e.g. UserCall from $89/month).
+
 ## Before you start
 
 Read `pmf/product-info.md`, `pmf/assumptions.md` and `pmf/interview-questions.md` if they exist. If the first two don't exist, run the `pmf-loop` setup, or ask: product, customer, problem in their words, what they do today instead. Ask how many interviews the founder has done so far.

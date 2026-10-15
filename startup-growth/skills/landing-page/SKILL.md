@@ -12,6 +12,10 @@ Increase desire with specific value. Decrease labor: every word, visual and elem
 
 The full method, with examples, is in `references/method.md`. Read it before writing or auditing anything.
 
+## What you need
+
+Any chat that can open a web page (Claude, ChatGPT) for AUDIT. Nothing else. BUILD can deploy with Vercel or Netlify if connected; otherwise it outputs the page as a file.
+
 ## Choose a mode
 
 Ask which one, or infer it from the request:
@@ -103,4 +107,4 @@ When answers come back: group them by question and by reviewer group, quote them
 - If the page is for a validation test (waitlist, deposit, fake door), say so in the brief and keep the claims honest about what exists today.
 
 ---
-Method: Gilles De Clerck's landing page workshop (gillesdc.com), used by hundreds of startups. It builds on Demand Curve's Growth Guide, chapter 3 (Landing Pages).
+Method: Gilles De Clerck's landing page workshop (gillesdc.com), used by hundreds of startups.

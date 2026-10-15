@@ -16,6 +16,10 @@ Pre-market work (customer, problem, solution) is **qualitative**: research and c
 
 Every technique in the pmf-* skills is labelled with how it works (**chat · research · build · analyse · simulate**) and, when it needs one, the building block underneath: **teach** (a skill), **connect** (a connector) or **schedule** (it runs on its own). All of them run on **context**: the two files this skill writes.
 
+## What you need
+
+Works in any chat. With file access (Claude Code, Cowork, or a Claude Project) it saves the two files; otherwise it outputs them for you to save.
+
 ## 1. Load or create the product file
 
 Look for `pmf/product-info.md` (also check `product-info.md` in the project root, or a file attached to the conversation).

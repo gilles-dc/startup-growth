@@ -7,6 +7,12 @@ description: Measure whether a startup has product-market fit with AI — run an
 
 Goal: know whether people use it regularly and keep paying, and what to do next at the level of fit the startup is actually at.
 
+## What you need
+
+- **Chat only:** A (paste the answers), F.
+- **Free:** PostHog, Mixpanel or Amplitude free tiers (C), Tally (B), Stripe (E), n8n's self-hosted template (E), an email connector (D).
+- **Paid, optional:** Zapier or Make instead of n8n (E).
+
 ## Before you start
 
 Read `pmf/product-info.md` and `pmf/assumptions.md`. Ask: how many active users or customers, how long they've had access, what data is available (analytics connector, Stripe, exports).

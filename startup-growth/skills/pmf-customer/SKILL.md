@@ -7,6 +7,13 @@ description: Find and define a startup's first customer with AI. Use when buildi
 
 Goal: the real people who have the problem. Output is an ICP the founder can test, and a list of named people to talk to this week.
 
+## What you need
+
+- **Chat only:** A, B (paste reviews or job ads), C.
+- **Free:** Apollo free plan (D, E), a free CRM tier such as Attio or HubSpot (D), web access to check links (C).
+- **Runs on its own:** Claude Cowork scheduled tasks or Claude Code routines (F).
+- **Paid, optional:** Clay, LinkedIn Sales Navigator.
+
 ## Before you start
 
 Read `pmf/product-info.md` and `pmf/assumptions.md`. If they don't exist, run the setup from the `pmf-loop` skill, or ask: product in one sentence, who it's for, the problem in their words, what they do today instead, evidence so far.

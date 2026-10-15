@@ -7,6 +7,12 @@ description: Turn evidence into decisions with AI — update the assumption boar
 
 Goal: evidence in, one decision out, every cycle. Then make the loop run without the founder having to remember it.
 
+## What you need
+
+- **Chat only:** A, B, C.
+- **Runs on its own:** Claude Cowork scheduled tasks or Claude Code routines (D, E, F); Slack for the digests.
+- **Paid, optional:** Firecrawl monitor (F).
+
 ## Before you start
 
 Read `pmf/product-info.md`, `pmf/assumptions.md`, `pmf/synthesis.md` and `pmf/tests/` if they exist.
