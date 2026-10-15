@@ -17,7 +17,7 @@ Goal: evidence in, one decision out, every cycle. Then make the loop run without
 
 Read `pmf/product-info.md`, `pmf/assumptions.md`, `pmf/synthesis.md` and `pmf/tests/` if they exist.
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connector (it uses a connector) or schedule (runs on its own).
 
 ---
 

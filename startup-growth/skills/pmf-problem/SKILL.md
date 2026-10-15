@@ -19,7 +19,7 @@ Read `pmf/product-info.md`, `pmf/assumptions.md` and `pmf/interview-questions.md
 
 Recommend the techniques that fit the founder's situation. A typical first pass: **A + B + C → I → K**, then **L → M → O → Q → R**.
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connector (it uses a connector) or schedule (runs on its own).
 
 ---
 
@@ -63,7 +63,7 @@ site:reddit.com "how do you guys" [task]
 
 Note for the founder: Reddit is restricting API access from November 2026 (RSS ends 13 Nov 2026, broader public API access in 2027), so Reddit-based tools and monitors may stop working.
 
-## D. Every bad review · research · connect
+## D. Every bad review · research · connector
 
 The 1–2 star reviews of what the customer uses today, in bulk.
 
@@ -160,7 +160,7 @@ Why: NN/g (2024) found synthetic users claimed to have completed every course; a
 
 Seen at: Steve Blank, Lean LaunchPad redesign (Sept 2026).
 
-## O. Interview invites · chat · connect
+## O. Interview invites · chat · connector
 
 For each person on the list (`pmf/lists/`, from `pmf-customer`):
 > Here is a person: [name, role, company, recent post or news]. Write a 3-sentence message asking for 20 minutes to learn how they handle [task] today. Reference their post or news in the first sentence. Don't mention a product, a startup or AI. No flattery. End with a specific day and time.

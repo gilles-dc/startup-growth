@@ -19,7 +19,7 @@ Read `pmf/product-info.md` and `pmf/assumptions.md`. This stage works best with 
 
 Start with the market (A–F), then write the promise (G–I).
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connector (it uses a connector) or schedule (runs on its own).
 
 ---
 
@@ -41,13 +41,13 @@ Seen at: Docebo, via Kyle Poyar, Growth Unhinged (Oct 2025).
 
 Seen at: Teresa Torres, Product Talk (Oct 2025): 1–2 minutes per competitor, 15 in parallel. The same work in browser chat took about an hour and came back shallow.
 
-## C. Live pricing · research · connect
+## C. Live pricing · research · connector
 
 Research tools often return cached or outdated pricing pages. If a browser or scraping tool is available (Claude in Chrome, Firecrawl, Bright Data), open each competitor's live pricing page and extract: plans · prices · billing · limits · who each plan is for · free tier. Tell the founder to spot-check two by hand.
 
 Seen at: Sachin Rekhi (2025): deep research returned stale prices; only live browsing was right.
 
-## D. Pricing history · research · connect
+## D. Pricing history · research · connector
 
 A competitor's pricing history is their customer research, published.
 - With a Wayback Machine connector: compare the competitor's /pricing page three years ago, one year ago, today.
@@ -62,7 +62,7 @@ Score each competitor's pricing page, and the founder's draft pricing, on: clari
 
 Seen at: Kyle Poyar, Growth Unhinged (Apr 2026): all 50 Forbes AI 50 pricing pages in minutes.
 
-## F. Size from search demand · analyse · connect
+## F. Size from search demand · analyse · connector
 
 Market size = customers × what they spend on this problem, with real search volume and named companies as inputs and every assumption labelled.
 

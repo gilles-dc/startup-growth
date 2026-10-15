@@ -14,7 +14,7 @@ CUSTOMER → PROBLEM → SOLUTION → MVP → TEST → ITERATE → PMF → grow
 
 Pre-market work (customer, problem, solution) is **qualitative**: research and conversations that turn guesses into sharper hypotheses. Market work (MVP, test, iterate, PMF) is **counted**: sign-ups, deposits, payments, retention. AI compresses both, in different ways. This skill sets up the founder's working files and sends them to the stage that matters most right now.
 
-Every technique in the pmf-* skills is labelled with how it works (**chat · research · build · analyse · simulate**) and, when it needs one, the building block underneath: **skill** (it uses another skill), **connect** (a connector) or **schedule** (it runs on its own). All of them run on **context**: the two files this skill writes.
+Every technique in the pmf-* skills is labelled with how it works (**chat · research · build · analyse · simulate**) and, when it needs one, the building block underneath: **skill** (it uses another skill), **connector** (it uses a connector) or **schedule** (it runs on its own). All of them run on **context**: the two files this skill writes.
 
 ## What you need
 

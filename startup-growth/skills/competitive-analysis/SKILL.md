@@ -16,7 +16,7 @@ Goal: a short list of tests worth running, sourced from companies that face the 
 
 Read `pmf/product-info.md`. Ask: which growth problem are we trying to solve (onboarding, conversion, acquisition, trust, pricing)? The analysis is aimed at that one problem.
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connector (it uses a connector) or schedule (runs on its own).
 
 ---
 
@@ -28,7 +28,7 @@ Each heading says how the technique works (chat · research · build · analyse 
 
 Output: 3–5 companies in `pmf/competitors.md`, each with one line on why it's comparable.
 
-## B. Find their A/B tests · research · connect
+## B. Find their A/B tests · research · connector
 
 With a browser tool (Claude in Chrome, Firecrawl, or the founder's own browser):
 1. Open the key pages (homepage, pricing, sign-up) in fresh private windows several times. When the page changes, you've been placed in another variant. Screenshot every variant.
@@ -37,7 +37,7 @@ With a browser tool (Claude in Chrome, Firecrawl, or the founder's own browser):
 
 **Hidden ad landing pages:** read the site's `sitemap.xml` for pages that aren't linked from the homepage. Pages that receive ad traffic are usually the most heavily tested. An SEO connector (Ahrefs, Semrush, DataForSEO) can also show which landing pages their search ads point to.
 
-## C. Audit their ads · research · connect
+## C. Audit their ads · research · connector
 
 - **Meta (Facebook, Instagram):** search the company's Page in the Meta Ad Library. Ads that have run for a long time are probably working. Ads with many comments and reactions likely run at high frequency. Note the copy, the creative hook, and the **objections in the comments**: those are the objections your own ads should answer. The founder can also get retargeted on purpose (visit their site without an ad blocker) to see which ads come back.
 - **Google Ads:** with an SEO connector, list their paid keywords, cost per click and volume, and how long each keyword has been funded. Keywords funded consistently for a long time probably work; keywords tried briefly and dropped are ones to avoid.
@@ -45,7 +45,7 @@ With a browser tool (Claude in Chrome, Firecrawl, or the founder's own browser):
 - **Traffic:** Similarweb for the trend. It isn't always accurate, and a drop can simply mean they stopped an experiment that didn't pay off.
 - **Mobile-first companies:** web traffic misleads, because users go straight to the app store. Use an app-intelligence tool (Sensor Tower or similar) for top keywords and estimated installs.
 
-## D. Audit their content · analyse · connect
+## D. Audit their content · analyse · connector
 
 1. With an SEO connector: their highest-volume organic keywords and the blog posts that rank for them.
 2. With a social-share tool (BuzzSumo or similar): which of their posts people shared most.

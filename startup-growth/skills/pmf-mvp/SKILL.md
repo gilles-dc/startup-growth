@@ -17,7 +17,7 @@ Goal: the cheapest thing that could disprove the riskiest assumption, built and 
 
 Read `pmf/product-info.md` and `pmf/assumptions.md`. Name the riskiest assumption out loud and confirm it with the founder. If there is no assumption board, run `pmf-loop` first.
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connector (it uses a connector) or schedule (runs on its own).
 
 ---
 
@@ -42,7 +42,7 @@ Before anything goes live, write `pmf/tests/[test-name].md`:
 
 Example thresholds one founder used for fake doors (Moe Shegow, Indie Hackers, May 2026): CTA click rate above 4%, 20+ sign-ups, 40% choosing a paid tier. These are his choices; the founder sets their own. His gap was traffic: no ads, so no answer yet. `pmf-test` puts traffic on the test and applies these rules.
 
-## C. Fake door in 15 minutes · build · connect
+## C. Fake door in 15 minutes · build · connector
 
 **Page:** if the `landing-page` skill is installed, use it in BUILD mode with `product-info.md` as the brief, then its AUDIT mode before going live. Otherwise (Claude Code or any builder):
 > Build a one-page site for [product]. Headline: [best of the 10 from pmf-solution]. Section 2: three problems in the customer's words: [left column]. Section 3: what changes, with numbers: [right column]. Pricing: [price]. One button only: "[Reserve your spot: €X, fully refundable]" linking to [payment link] (or "Join the waitlist" linking to [form]). No feature list. No stock photos. No "AI-powered".

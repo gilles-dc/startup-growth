@@ -20,7 +20,7 @@ Read `pmf/product-info.md` and `pmf/assumptions.md`. If they don't exist, run th
 
 Ask which technique the founder wants, or recommend one based on their evidence.
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connector (it uses a connector) or schedule (runs on its own).
 
 ---
 
@@ -67,7 +67,7 @@ Write the result as five dimensions in `pmf/product-info.md` (Customer section):
 
 **Check:** if the ICP description fits five different kinds of people, it isn't specific enough. Could a stranger find this person from the description alone?
 
-## D. The list of 50 · research · connect
+## D. The list of 50 · research · connector
 
 Named people who match the ICP, with a reason to talk now.
 
@@ -85,7 +85,7 @@ If a CRM connector is available (Attio, HubSpot), offer to add them, tagged with
 
 **Never** automate LinkedIn messaging or scraping (it violates LinkedIn's terms and risks the account). Never enrol people in email sequences. Outreach is drafted; the founder sends. EU contacts: GDPR applies to cold outreach.
 
-## E. Count your market · analyse · connect
+## E. Count your market · analyse · connector
 
 A market size built from companies you can name.
 

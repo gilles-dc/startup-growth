@@ -16,11 +16,11 @@ Goal: traffic, sign-ups and deposits, counted. A live test, the tracking proven 
 
 Read `pmf/product-info.md`, `pmf/assumptions.md` and the test file in `pmf/tests/`. The test needs a live instrument and kill criteria (`pmf-mvp` B and C). If there are no kill criteria, write them first: a test without them gets read in whatever way the founder hopes.
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connector (it uses a connector) or schedule (runs on its own).
 
 ---
 
-## A. Is the tracking working? · analyse · connect
+## A. Is the tracking working? · analyse · connector
 
 One question across every tool, before you spend a euro.
 
@@ -29,7 +29,7 @@ Check the chain end to end: ad click (UTM) → page view → CTA click → form 
 
 Fix the gaps before launch. A test with broken tracking is a test you have to run twice.
 
-## B. Launch the traffic · build · connect
+## B. Launch the traffic · build · connector
 
 The agent creates the campaign, paused; the founder presses go.
 - **Meta Ads connector:** one campaign, one ad set per headline, small equal budgets, same audience, pointing at the page. Campaigns are created **paused**. The founder reviews in Ads Manager and switches it on. Warn them that edits to live ads apply immediately, and suggest turning on only the ad tools needed.
@@ -39,7 +39,7 @@ The agent creates the campaign, paused; the founder presses go.
 
 Ad copy volume: generate headlines and descriptions to the platform's limits and have the founder review every line before upload. (Seen at: Austin Lau, Anthropic growth marketing, Jan 2026: about 30 minutes → 30 seconds per ad, all human-reviewed.)
 
-## C. Read back, decide · analyse · connect
+## C. Read back, decide · analyse · connector
 
 The next morning, and again after the agreed duration:
 > One row per headline or variant: spend · impressions · clicks · CTR · page views · CTA clicks · sign-ups · deposits or LOIs · cost per sign-up · cost per deposit.
