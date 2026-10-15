@@ -30,7 +30,7 @@ Source: Todd Jackson, First Round Capital, PMF Method. Most early teams think th
 
 A customer who paid for three subscription cycles is product-market fit with that one customer. A second one is fit with two.
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: teach (a skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
 
 ---
 

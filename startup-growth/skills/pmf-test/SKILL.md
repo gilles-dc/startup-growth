@@ -16,7 +16,7 @@ Goal: traffic, sign-ups and deposits, counted. A live test, the tracking proven 
 
 Read `pmf/product-info.md`, `pmf/assumptions.md` and the test file in `pmf/tests/`. The test needs a live instrument and kill criteria (`pmf-mvp` B and C). If there are no kill criteria, write them first: a test without them gets read in whatever way the founder hopes.
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: teach (a skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
 
 ---
 

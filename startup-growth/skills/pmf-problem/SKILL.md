@@ -19,7 +19,7 @@ Read `pmf/product-info.md`, `pmf/assumptions.md` and `pmf/interview-questions.md
 
 Recommend the techniques that fit the founder's situation. A typical first pass: **A + B + C → I → K**, then **L → M → O → Q → R**.
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: teach (a skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
 
 ---
 
@@ -47,7 +47,7 @@ Seen at: Torsten Walbaum, Growth Unhinged (Aug 2025): plan first, source priorit
 > List every claim only one report makes, and every number the two reports disagree on, with both sources. Then list what both reports failed to find.
 3. Disagreements and joint gaps go to technique K.
 
-## C. The last 30 days · research · teach
+## C. The last 30 days · research · skill
 
 What people said about the problem this month, ranked by engagement.
 - If the `last30days` skill is installed (mvanhorn/last30days-skill): run `/last30days [problem in plain words]`.
@@ -91,7 +91,7 @@ Seen at: Amir Klein (monday.com), How I AI, Oct 2025: a 34,000-row Reddit datase
 
 Brute-forcing everything through the strongest model is what makes this expensive. Seen at: Claire Vo, How I AI, Sept 2026: ~200,000 classifications for about $4 with a cheap classifier, then a frontier model for reasoning.
 
-## G. The six-dimension check · research · teach
+## G. The six-dimension check · research · skill
 
 A check that admits what it couldn't find. Rate: problem frequency · problem severity · current spend · competition · willingness to switch · reachability of the ICP. Each HIGH / MED / LOW or **INSUFFICIENT DATA**, with citations. INSUFFICIENT DATA is the useful answer: that's where the founder goes and talks to people.
 
@@ -132,7 +132,7 @@ Then update `pmf/product-info.md` with what the research changed. Research that 
 
 # Part 2 · From conversations
 
-## L. Interview script · chat · teach
+## L. Interview script · chat · skill
 
 A script built on a method, then fixed by the founder.
 - If an interview skill is installed (phuryn/pm-skills `interview-script`, or a Mom Test skill), generate the script with it from `product-info.md`.
@@ -178,7 +178,7 @@ Only once the script works with real people. An AI interviewer runs voice interv
 - Participants must be told they're speaking with an AI.
 - Read the full transcripts as well as the summaries. It adds to the founder's own interviews; it never replaces them.
 
-## Q. Patterns across interviews · analyse · teach
+## Q. Patterns across interviews · analyse · skill
 
 1. Get transcripts: a meeting-transcript connector (Granola, Fireflies, Otter), a folder of files, or pasted text.
 2. **One interview per pass.** For each, using a fixed template: context · the story of the last time · current workaround · what they spent (money, time) · quotes (verbatim, with timestamp) · surprises. Save the template as a skill once it works, so every interview gets the same treatment.

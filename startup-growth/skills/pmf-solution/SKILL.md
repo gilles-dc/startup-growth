@@ -19,7 +19,7 @@ Read `pmf/product-info.md` and `pmf/assumptions.md`. This stage works best with 
 
 Start with the market (A–F), then write the promise (G–I).
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: teach (a skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
 
 ---
 
@@ -32,7 +32,7 @@ Each heading says how the technique works (chat · research · build · analyse 
 
 Seen at: Docebo, via Kyle Poyar, Growth Unhinged (Oct 2025).
 
-## B. Competitors in parallel · research · teach
+## B. Competitors in parallel · research · skill
 
 1. Do one competitor analysis by hand with the founder, reading `product-info.md` first: positioning, ICP, pricing, features, reviews, recent changes.
 2. Turn the method into a reusable instruction and save the list in `pmf/competitors.md`.
@@ -56,7 +56,7 @@ A competitor's pricing history is their customer research, published.
 
 Prices that went up and stayed up were accepted. Plans that vanished didn't sell. Offer to schedule a monthly page check (Firecrawl monitor, changedetection.io, or a scheduled task).
 
-## E. Pricing teardown · analyse · teach
+## E. Pricing teardown · analyse · skill
 
 Score each competitor's pricing page, and the founder's draft pricing, on: clarity · value metric · packaging · anchoring · free-to-paid path · enterprise path · how readable it is to AI agents. Kyle Poyar publishes a free pricing-teardown skill that does this (Growth Unhinged, Apr 2026); if it's installed, use it.
 

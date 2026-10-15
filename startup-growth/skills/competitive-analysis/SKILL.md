@@ -16,7 +16,7 @@ Goal: a short list of tests worth running, sourced from companies that face the 
 
 Read `pmf/product-info.md`. Ask: which growth problem are we trying to solve (onboarding, conversion, acquisition, trust, pricing)? The analysis is aimed at that one problem.
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: teach (a skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
 
 ---
 

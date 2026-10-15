@@ -17,7 +17,7 @@ Goal: evidence in, one decision out, every cycle. Then make the loop run without
 
 Read `pmf/product-info.md`, `pmf/assumptions.md`, `pmf/synthesis.md` and `pmf/tests/` if they exist.
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: teach (a skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
 
 ---
 
@@ -33,7 +33,7 @@ Show the proposed changes as a diff. **The founder approves each one.** Never up
 
 Run it with every founder on the team. Under 7/10: reread the transcripts before the next call. If the AI knows the customer better than the team does, the team has learning debt (Steve Blank's term): any founder should be able to explain the customer, their workflow, the evidence, the economics and the contradictions without opening a laptop.
 
-## C. Pivot memo · chat · teach
+## C. Pivot memo · chat · skill
 
 If a pivot-decision skill is installed (product-on-purpose/pm-skills `iterate-pivot-decision`, MaxKmet/idea-validation-agents `pivot-engine`), use it to write the memo. Otherwise write `pmf/decisions/[date].md`:
 - what we believed · what we found (verified quotes, test numbers) · what that means

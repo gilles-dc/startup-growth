@@ -20,7 +20,7 @@ Read `pmf/product-info.md` and `pmf/assumptions.md`. If they don't exist, run th
 
 Ask which technique the founder wants, or recommend one based on their evidence.
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: teach (a skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
 
 ---
 
@@ -40,7 +40,7 @@ Then:
 
 **Check:** the decision is made on reply rate per ICP, not on which one sounds best.
 
-## B. Where your customer lives · research · teach
+## B. Where your customer lives · research · skill
 
 Find where the ICP talks shop, with links that work.
 

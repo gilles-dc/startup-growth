@@ -17,7 +17,7 @@ Goal: the cheapest thing that could disprove the riskiest assumption, built and 
 
 Read `pmf/product-info.md` and `pmf/assumptions.md`. Name the riskiest assumption out loud and confirm it with the founder. If there is no assumption board, run `pmf-loop` first.
 
-Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: teach (a skill), connect (a connector) or schedule (runs on its own).
+Each heading says how the technique works (chat · research · build · analyse · simulate) and, when it needs one, which building block: skill (it uses another skill), connect (a connector) or schedule (runs on its own).
 
 ---
 

@@ -28,7 +28,7 @@ CUSTOMER → PROBLEM → SOLUTION  →  MVP → TEST → ITERATE → PMF → gro
 | `competitive-analysis` | learn how comparable companies grow: their A/B tests, ads, content and onboarding, turned into tests worth running |
 | `landing-page` | build, audit or get feedback on a landing page with a proven conversion method |
 
-Every technique is labelled with how it works (chat · research · build · analyse · simulate) and, where it needs one, the building block underneath: teach (a skill), connect (a connector) or schedule (runs on its own). Each skill starts with **What you need**: what works in a plain chat, which free tools help, which paid tools are optional.
+Every technique is labelled with how it works (chat · research · build · analyse · simulate) and, where it needs one, the building block underneath: skill (it uses another skill), connect (a connector) or schedule (runs on its own). Each skill starts with **What you need**: what works in a plain chat, which free tools help, which paid tools are optional.
 
 The pmf skills read and update two files in a `pmf/` folder: `product-info.md` (your current hypothesis) and `assumptions.md` (what you believe, what proves it). Every skill applies the same rules: numbers need a source or say GUESS, quotes are verified or say PARAPHRASE, and nothing is sent, published, launched, charged or spent without your approval.
 
