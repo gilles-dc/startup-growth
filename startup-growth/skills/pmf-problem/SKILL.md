@@ -12,6 +12,7 @@ Goal: the customer's world without the product, in their words, with numbers. Fi
 - **Chat only:** I, J, K, L, M, N, R, S, T.
 - **Free:** your AI's research mode (A, B, G), the last30days skill (C; Reddit, HN and GitHub need no key), YouTube transcripts (H), Claude Code (E, F), free tiers of Granola, Fireflies or Otter (Q), Tally (T), Gmail drafts and Calendly (O).
 - **Paid, optional:** Apify scraper runs (D, pay per run), AI interviewer tools (P, e.g. UserCall from $89/month).
+- **Blocked to a plain web fetch:** Capterra and G2 (anti-bot protection), Google Play and YouTube (pages built in JavaScript), most of Reddit. Use the connector named in each technique; pasting by hand is the last resort.
 
 ## Before you start
 
@@ -68,7 +69,8 @@ Note for the founder: Reddit is restricting API access from November 2026 (RSS e
 The 1–2 star reviews of what the customer uses today, in bulk.
 
 **With a scraping connector (Apify, Bright Data, Firecrawl):** find the scraper for G2 / Capterra / Trustpilot / App Store / Google Play / Amazon, run it on the current solution and its two main competitors. Check the cost of a scraper run before starting a big one and tell the founder.
-**Without:** ask the founder to paste 50–100 reviews.
+Apify has ready-made review scrapers for most of these sites; its free plan ($5 of credit a month) covers a few hundred reviews.
+**Without a scraper:** ask the founder to paste 50–100 reviews. A plain web fetch can't open Capterra, G2 or Google Play, and cuts quotes short.
 
 > Below are [N] reviews of [competitor], from [source].
 > 1. Group the complaints into themes. For each: how many reviews mention it, and 3 quotes copied word for word.
@@ -99,9 +101,9 @@ Seen at: Eddie Larsen's `/validate` skill (Medium, May 2026).
 
 ## H. Watch their workarounds on YouTube · research
 
-People film their workaround and explain it out loud.
-1. Search YouTube: "how I [task] in Excel / Notion / Google Sheets". Pick the 5 most-viewed.
-2. Get transcripts (a YouTube transcript connector if available; otherwise the founder copies "Show transcript").
+People film their workaround and explain it out loud. Not yet tested end to end.
+1. Search YouTube: "how I [task] in Excel / Notion / Google Sheets", or how they handle the problem today ("no-show policy salon"). Pick the 5 most-viewed.
+2. Give the links to Gemini, which watches YouTube videos, picture and sound. Keep to videos under about 20 minutes: on a 45-minute video Gemini has invented details that weren't there (Caitlin Sullivan, Dec 2025). A plain web fetch gets empty transcripts; copying "Show transcript" by hand is the fallback.
 > These are transcripts of people showing how they [task] today. For each video: the steps in order · the tools · how long it takes, if they say · every workaround · every moment they complain, sigh or apologise, quoted.
 
 The workaround is the competitor you have to beat. The complaints are your copy.

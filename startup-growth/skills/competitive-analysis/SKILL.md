@@ -10,6 +10,7 @@ Goal: a short list of tests worth running, sourced from companies that face the 
 ## What you need
 
 - **Free:** a browser (B, E), Meta Ad Library (public, C), Google Trends (C), a BuiltWith lookup (E), Crunchbase's free search (A).
+- **For an agent, use a connector:** a plain web fetch is blocked by the Meta Ad Library and Google Trends. Meta's Ad Library API covers every ad shown in the EU (needs a verified developer account, a few days); an Apify Ad Library scraper or an ad-intelligence tool such as Foreplay does the same. Google Trends: DataForSEO's Google Trends endpoint. A/B variants (B) and the onboarding funnel (E) need a browser tool (Claude in Chrome, Firecrawl), because pages have to be loaded several times or signed up for; the sign-up stays with the founder.
 - **Paid, optional:** Ahrefs or Semrush, or DataForSEO pay as you go (B, C, D); Similarweb beyond its free tier (C); Sensor Tower (C); BuzzSumo (D).
 
 ## Before you start
