@@ -52,9 +52,11 @@ Survey only people who used the product at least twice in the last two weeks.
 Create it with a forms connector (Tally, Typeform) or as an in-app survey (PostHog), **as a draft for the founder to publish**. Benchmark: 40% "very disappointed" (Sean Ellis, from nearly 100 startups).
 
 **Analysis (Superhuman's method):**
+> 0. Split the score by segment first: customer type, size, use case, whatever the ICP lines in product-info.md vary on. Give each segment's score with its count. A blended score under 40% can hide a segment far above it; that segment is the ICP.
 > 1. Filter to "very disappointed". Describe who they are (role, company, use case) and the top 3 main benefits they name, with quotes. That group is the real ICP; that benefit is the positioning.
 > 2. Filter "somewhat disappointed" to those who name the same top benefit. What do they say holds them back? Group and quote. That's the roadmap.
 > 3. Ignore "not disappointed".
+> 4. If the group in step 2 is mostly a different segment from step 1, its roadmap serves another customer. Flag it as a choice about who the customer is; don't put it on the roadmap.
 
 Superhuman went from 22% to 58% very disappointed by building for the first group and the second (Rahul Vohra). Small samples are directional; say how many responses the percentage rests on.
 
@@ -63,9 +65,11 @@ Superhuman went from 22% to 58% very disappointed by building for the first grou
 ## C. Ask your analytics about retention · analyse · connector
 
 With an analytics connector (PostHog, Mixpanel, Amplitude, GA4):
-> Weekly retention by sign-up cohort, where active means [the event that means they got value, e.g. "created a report"]. Logging in doesn't count. Does any cohort's curve flatten, and after which week? Are newer cohorts retaining better than older ones?
+> Weekly retention by sign-up cohort, where active means [the event that means they got value, e.g. "created a report"]. Logging in doesn't count. Does any cohort's curve flatten, and after which week? Are newer cohorts retaining better than older ones? Then split the same curves by segment (customer type, size, plan): a blended curve can hide one segment that stays and another that leaves.
 
 Without one: ask for a CSV of sign-ups and events, compute the cohort table and chart with code.
+
+Pick the window to match how often the value happens: weekly for a weekly report, 4-week blocks for something done every month or so (a haircut, an invoice run). "Flattens" means the share active stays within a few points for three windows or more. Cohorts younger than that can't show it yet; say so instead of guessing.
 
 A curve that flattens above zero is the signal. A curve that keeps falling to zero is a leaky bucket, whatever the sign-up numbers say: Clubhouse had 9.6M downloads in February 2021 and 922k in April.
 
@@ -84,9 +88,9 @@ On every cancellation (Stripe) or 30 days of inactivity, one question:
 Set up as an automation (n8n has a ready template for Stripe cancellation → exit question → Claude classification → sheet; or a Zapier/Make flow; or a scheduled task reading replies). Emails are drafted or sent from the founder's own tool with their approval of the template.
 
 Monthly:
-> Group these replies into themes. For each: count, 2 quotes, and whether it's something we could fix or a sign they were the wrong customer.
+> Group these replies into themes. For each: count, 2 quotes, the customer's segment and months active, and one of four labels: **fixable for our ICP** · **fixable, but for another segment** · **wrong customer** · **neither** (closing down, budget cut).
 
-A "wrong customer" answer updates the ICP in `product-info.md`. A fixable one goes on the roadmap.
+A "wrong customer" answer updates the ICP in `product-info.md`. A fixable one for the ICP goes on the roadmap. "Fixable, but for another segment" is a question about who the customer is, not a roadmap item: count how many cancellations it covers before building it.
 
 ## F. The cost of keeping them · analyse
 

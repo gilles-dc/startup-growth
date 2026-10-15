@@ -40,7 +40,7 @@ Before anything goes live, write `pmf/tests/[test-name].md`:
 - **kill / iterate / scale thresholds**, e.g. CTA click rate, sign-ups, deposits or LOIs, cost per deposit
 - what we'll do in each case
 
-Example thresholds one founder used for fake doors (Moe Shegow, Indie Hackers, May 2026): CTA click rate above 4%, 20+ sign-ups, 40% choosing a paid tier. These are his choices; the founder sets their own. His gap was traffic: no ads, so no answer yet. `pmf-test` puts traffic on the test and applies these rules.
+Example thresholds one founder used for fake doors (Moe Shegow, Indie Hackers, May 2026): CTA click rate above 4%, 20+ sign-ups, 40% choosing a paid tier. These are his choices; the founder sets their own. Size the thresholds to the traffic the budget buys: €105 at about €0.50 a click is roughly 200 visitors, so "20 sign-ups" means 10% of visitors. Say when a threshold can't be reached with that traffic. Say whether each threshold applies per variant or to the total (normally per variant), and name the "main button" so the read-back can't reinterpret it. His gap was traffic: no ads, so no answer yet. `pmf-test` puts traffic on the test and applies these rules.
 
 ## C. A test page with deposits in 15 minutes · build · connector
 

@@ -46,6 +46,12 @@ The next morning, and again after the agreed duration:
 
 Pull from ads, analytics, forms and payments connectors; or ask the founder to paste exports. Apply the kill criteria from the test file and state: **kill, iterate or scale**, with the reason. The agent recommends; the founder decides. Log the result in `pmf/tests/` and update `pmf/assumptions.md`.
 
+Rules for the read:
+- **Judge each variant on its own** against the numbers in the test file. A total that passes because one variant carried it is not a pass for the others.
+- **Ad clicks and page actions can point opposite ways.** A headline that wins the ad and loses on the page over-promised: the page is where the promise is tested. Decide on page actions (main-button clicks, sign-ups, deposits), not on ad click rate.
+- **"Main button"** is whatever the test file named before launch. If it doesn't say, ask before reading the numbers.
+- **Test-mode deposits are a rehearsal.** Only deposits through a live payment link count as commitment.
+
 Small numbers give rough answers. Say how many people a percentage rests on.
 
 ---

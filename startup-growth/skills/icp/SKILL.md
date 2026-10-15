@@ -64,6 +64,8 @@ Work through them in order. For each, ask the founder the questions, fill in wha
 
 If web tools are available, research WHERE for real: names and working links, not categories. Open every link; drop dead ones.
 
+If the ICP lives where search can't reach (Instagram DMs, WhatsApp groups, in person), say so plainly, and list the reachable proxies instead: directories that list them (booking platforms, trade associations, the company register), trade fairs, and the suppliers or wholesalers they buy from. Never invent a group name to fill the line.
+
 ## The deliverable
 
 Five lines, one per dimension, each a dense paragraph with numbers and names. Format and two full examples (a B2B fintech compliance tool and a B2C longevity app) are in `references/examples.md`. Read it before writing.

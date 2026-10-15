@@ -61,6 +61,14 @@ Every new transcript updates the evidence, without the founder opening anything.
 Every Monday, the agent reads the week's data and proposes what to try next.
 
 > Every Monday 8:00: read last week's product metrics [analytics connector], new interview notes, test results and [Slack channel]. Propose 3–5 specific bets, each with the evidence behind it and the test to run. Post before the team meeting.
+
+How to pick the bets:
+1. **Find the biggest drop** in this week's funnel, and look for its cause in the notes and messages.
+2. **Rank the evidence:** what people did (metrics, payments, drop-offs) outweighs what they asked for. Several voices from the ICP outweigh one loud voice from a segment you don't serve.
+3. **Each bet:** the evidence, with the line it comes from · the test to run · the result that would change the plan.
+4. **Pick one to run first** and say why.
+5. **Requests from outside the ICP** (for example a feature only bigger customers want) are a question about who the customer is: list them separately, never as a bet.
+
 (Seen at: Charles Cook, PostHog, Apr 2026 — he acts on about one in five; Jenny Wen, Anthropic, Mar 2026 — "3 vetted product ideas" every Monday.)
 
 ## F. Competitor watch · research · schedule

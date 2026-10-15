@@ -34,9 +34,9 @@ Prompt (run it yourself with the founder's product):
 
 Then:
 1. Build a list of 10 people per ICP (technique D).
-2. Draft the same three-line message for all 50: 20 minutes to learn how they handle [task]. No pitch.
+2. Draft the same three-line message for all 50: 20 minutes to learn how they handle [task]. No pitch. Write it in the customer's language.
 3. The founder sends them (never you). Track replies per ICP in `pmf/icp-test.md`.
-4. Highest reply rate becomes ICP hypothesis #1.
+4. Highest reply rate becomes ICP hypothesis #1. Ten per ICP is a first read: if the top two are within two replies of each other, send ten more to each before deciding.
 
 **Check:** the decision is made on reply rate per ICP, not on which one sounds best.
 
@@ -46,7 +46,7 @@ Find where the ICP talks shop, with links that work.
 
 > Find where [ICP, one sentence] talk shop, online and offline. For each place: name · link · type (subreddit, Slack, Discord, newsletter, podcast, event, LinkedIn group) · approximate size · one recent thread or episode where they discussed [problem], with its link. Only include places you found a working link for. Maximum 20.
 
-If a web-fetch or scraping tool is available, open every link yourself and drop dead ones. If the `where-your-customer-lives` skill (Varnan-Tech/opendirectory) is installed, use it first: it searches Reddit, HN, GitHub issues, G2 and Google Trends and returns an ICP and positioning doc plus the channels ranked by where the ICP actually is.
+If a web-fetch or scraping tool is available, open every link yourself and drop dead ones. Most AI web tools can't open Reddit: use a scraping connector, or say Reddit wasn't checked. If the ICP gathers where search can't reach (DMs, WhatsApp groups, in person), say so, and list reachable proxies: directories and booking platforms that list them, trade associations, trade fairs, suppliers. Never invent a group name. If the `where-your-customer-lives` skill (Varnan-Tech/opendirectory) is installed, use it first: it searches Reddit, HN, GitHub issues, G2 and Google Trends and returns an ICP and positioning doc plus the channels ranked by where the ICP actually is.
 
 **Check:** the founder opens every link and joins three. Read before posting. People complaining about the problem in those places are the first interview candidates.
 
