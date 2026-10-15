@@ -1,0 +1,16 @@
+{
+  "name": "gilles-dc",
+  "description": "Skills by Gilles De Clerck for founders taking a startup from idea to product-market fit with AI.",
+  "owner": {
+    "name": "Gilles De Clerck",
+    "url": "https://gillesdc.com"
+  },
+  "plugins": [
+    {
+      "name": "pmf-fast-track",
+      "displayName": "Fast-Track PMF",
+      "source": "./pmf-fast-track",
+      "description": "Take a startup from idea to product-market fit with AI: find the customer, validate the problem from sources and interviews with verified quotes, shape the promise, build the smallest test, count what the market says, decide what to change, and measure retention. Skills that follow one path and check their own output, plus a landing page builder and auditor."
+    }
+  ]
+}
