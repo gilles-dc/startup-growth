@@ -10,7 +10,7 @@ Goal: the customer's world without the product, in their words, with numbers. Fi
 ## What you need
 
 - **Chat only:** I, J, K, L, M, N, R, S, T.
-- **Free:** your AI's research mode (A, B, G), the last30days skill (C; Reddit, HN and GitHub need no key), YouTube transcripts (H), Claude Code (E, F), free tiers of Granola, Fireflies or Otter (Q), Tally (T), Gmail drafts and Calendly (O).
+- **Free:** your AI's research mode (A, B, G), the last30days skill (C; Reddit, HN and GitHub need no key), a YouTube transcript connector (H), Claude Code (E, F), free tiers of Granola, Fireflies or Otter (Q), Tally (T), Gmail drafts and Calendly (O).
 - **Paid, optional:** Apify scraper runs (D, pay per run), AI interviewer tools (P, e.g. UserCall from $89/month).
 - **Blocked to a plain web fetch:** Capterra and G2 (anti-bot protection), Google Play and YouTube (pages built in JavaScript), most of Reddit. Use the connector named in each technique; pasting by hand is the last resort.
 
@@ -99,12 +99,14 @@ A check that admits what it couldn't find. Rate: problem frequency · problem se
 
 Seen at: Eddie Larsen's `/validate` skill (Medium, May 2026).
 
-## H. Watch their workarounds on YouTube · research
+## H. Watch their workarounds on YouTube · research · connector
 
-People film their workaround and explain it out loud. Not yet tested end to end.
-1. Search YouTube: "how I [task] in Excel / Notion / Google Sheets", or how they handle the problem today ("no-show policy salon"). Pick the 5 most-viewed.
-2. Give the links to Gemini, which watches YouTube videos, picture and sound. Keep to videos under about 20 minutes: on a 45-minute video Gemini has invented details that weren't there (Caitlin Sullivan, Dec 2025). A plain web fetch gets empty transcripts; copying "Show transcript" by hand is the fallback.
-> These are transcripts of people showing how they [task] today. For each video: the steps in order · the tools · how long it takes, if they say · every workaround · every moment they complain, sigh or apologise, quoted.
+People film their workaround and explain it out loud.
+1. Search YouTube: "how I [task] in Excel / Notion / Google Sheets", or how they handle the problem today ("no-show policy salon"). Pick 5 where someone explains their own routine; skip vendor demos. YouTube's own search shows view counts; the connector doesn't.
+2. Get the transcripts with a YouTube transcript connector (e.g. the `youtube-transcript` MCP), timed, so every quote has a timestamp. Claude reads them directly. No connector: copy "Show transcript" by hand; a plain web fetch gets empty transcripts. To analyse what's on screen as well, give the links to Gemini, which watches video; keep those under about 20 minutes: on a 45-minute video Gemini has invented details that weren't there (Caitlin Sullivan, Dec 2025).
+> These are transcripts of people showing how they [task] today. For each video: the steps in order · the tools · how long it takes, if they say · every workaround · every moment they complain, sigh or apologise, quoted, with its timestamp.
+
+Auto-captions mishear names ("Booksy" became "books e-books"): keep quotes word for word and flag the mishearing in brackets. In reaction videos, note whose voice each quote is.
 
 The workaround is the competitor you have to beat. The complaints are your copy.
 
