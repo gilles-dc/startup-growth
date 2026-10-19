@@ -1,0 +1,21 @@
+{
+  "name": "pmf",
+  "displayName": "PMF",
+  "version": "0.5.0",
+  "description": "Gilles De Clerck's skills for finding product-market fit with AI: 25 skills, one per technique, grouped by stage (customer, problem, solution, MVP, test, iterate, retention), with built-in checks: sourced numbers, verified quotes, approval before anything is sent, launched or charged.",
+  "license": "MIT",
+  "author": {
+    "name": "Gilles De Clerck",
+    "url": "https://gillesdc.com"
+  },
+  "skills": [
+    "./pmf/",
+    "./customer/",
+    "./problem/",
+    "./solution/",
+    "./mvp/",
+    "./test/",
+    "./iterate/",
+    "./retention/"
+  ]
+}

@@ -1,16 +1,24 @@
 {
   "name": "gilles-dc",
-  "description": "Startup growth skills by Gilles De Clerck: from idea to product-market fit and beyond, with AI.",
+  "description": "Startup growth skills by Gilles De Clerck: from idea to product-market fit with AI.",
   "owner": {
     "name": "Gilles De Clerck",
     "url": "https://gillesdc.com"
   },
   "plugins": [
     {
-      "name": "startup-growth",
-      "displayName": "Startup Growth",
-      "source": "./startup-growth",
-      "description": "Gilles De Clerck's startup growth library: the path from idea to product-market fit (customer, problem, solution, MVP, test, iterate, retention) plus ICP, competitive analysis and landing pages. Every skill checks its own output: sourced numbers, verified quotes, approval before anything is sent, launched or charged."
+      "name": "pmf",
+      "displayName": "PMF",
+      "source": "./pmf",
+      "description": "Gilles De Clerck's skills for finding product-market fit with AI: one skill per technique, grouped by stage (customer, problem, solution, MVP, test, iterate, retention), plus a front door that sends you to the right one. Every skill checks its own output: sourced numbers, verified quotes, approval before anything is sent, launched or charged."
+    },
+    {
+      "name": "last30days",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mvanhorn/last30days-skill.git"
+      },
+      "description": "The search engine social-listener runs on: the last 30 days across Reddit (with comments and upvotes), X, YouTube, TikTok, Hacker News and GitHub. By Matt Van Horn, MIT licence, installed from its own repository so it stays current."
     }
   ]
 }
